@@ -66,7 +66,7 @@ class DoublyLinkedList{
         this.count++;
     }
 
-    clearAll(){
+    clear(){
         this.head = null;
         this.tail = null;
         this.count = 0;
